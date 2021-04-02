@@ -18,7 +18,6 @@ The function should:
 function createMenuItem(latte, breakfastBurrito){
     console.log(latte)
     console.log(breakfastBurrito)
-    console.log(break) 
 }
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1b: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -30,8 +29,14 @@ Test your createMenuItems function by doing the following:
   
   For example: createMenuItem("pizza",5,"lunch") would return this as the object: {name:"Pizza",price:5,category:"lunch"}
 */
+const createMenuItems = {
+  name: "Pizza",
+  price: 5, 
+  category: "lunch",
 
+}
 
+console.log(createMenuItems)
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 You're having a lunch special! 25% off for teachers and students, 10% off for everyone else. Add a method to the 
