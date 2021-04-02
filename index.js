@@ -18,6 +18,7 @@ The function should:
 function createMenuItem(latte, breakfastBurrito){
     console.log(latte)
     console.log(breakfastBurrito)
+    console.log(break) 
 }
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1b: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
