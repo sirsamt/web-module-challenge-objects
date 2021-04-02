@@ -56,9 +56,13 @@ export const burger = {
   price: 18, 
   category: "Lunch", 
   /*Your code here*/
+  discount: function discountType(string){
+    if(string === "teacher" || string === "student") {return burger.price - (burger.price*.25);}
+    else if(sting === "public"){return burger.price - (burger.price * .10);}
+  }
 }
 
-
+console.log(burger.discount("public"))
 
 ///////////////Reviews (MVP)///////////////////
 const reviews = [
